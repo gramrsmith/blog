@@ -1,0 +1,15 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+vendor/
+.bundle/
+*.swp
+*~
+.DS_Store
+
+# Add your own:
+_drafts/private/
+research-notes/
+personal/
