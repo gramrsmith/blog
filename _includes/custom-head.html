@@ -12,10 +12,10 @@
       ],
       processEscapes: true,
       processEnvironments: true,
-      packages: { "[+]": ["stmaryrd"] },
-    },
-    loader: {
-      load: ["[tex]/stmaryrd"],
+      macros: {
+        llbracket: ["\\unicode{x27E6}"],
+        rrbracket: ["\\unicode{x27E7}"],
+      },
     },
     options: {
       skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
