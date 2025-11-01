@@ -12,6 +12,10 @@
       ],
       processEscapes: true,
       processEnvironments: true,
+      packages: { "[+]": ["stmaryrd"] },
+    },
+    loader: {
+      load: ["[tex]/stmaryrd"],
     },
     options: {
       skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"],
