@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First impressions"
-date: 2025-11-02 14:00:00 +0100
+date: 2025-11-01 19:32:00 +0100
 categories: linguistics syntax
 ---
 
