@@ -23,7 +23,7 @@ I've just finished chapter 4, here are the first chapters (as a reminder for you
 
 As I read, I go through almost all General Problem Sets in the book and some of the Challenge Problem Sets (I try to read them all at least).
 
-In parallel to Carnie, I started 2 weeks ago to follow the [MIT course 24.900 Introduction to linguistics](https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/) by Prof. Norvin W. Richards and I must say I like it very much (I'm about to start lecture 13). Each lecture lasts about 1 hr and the videos (except for lecture 7) are available together with the slides. Prof. Richards has a very accessible learning style. These lectures cover the full spectrum of linguistics: morphology, phonetics, phonology, syntax, semantics and more. Richards' lectures on phonology and phonetics helped me understand why syntactical representations and phonological forms need to interface. A great introduction before engaging with Carnie's depth on syntax.
+In parallel to Carnie, I started 2 weeks ago to follow the [MIT course 24.900 Introduction to linguistics](https://ocw.mit.edu/courses/24-900-introduction-to-linguistics-spring-2022/) by Prof. Norvin W. Richards and I must say I like it very much (I'm about to start lecture 13). Each lecture lasts about 1 hr and the videos (except for lecture 7) are available together with the slides. Prof. Richards has a very accessible teaching style. These lectures cover the full spectrum of linguistics: morphology, phonetics, phonology, syntax, semantics and more. Richards' lectures on phonology and phonetics helped me understand the link between syntax and phonology. A great introduction before engaging with Carnie's depth on syntax.
 
 Here are the key topics I've discovered and that are absolutely essential if you want to dive into theoretical linguistics.
 
@@ -31,13 +31,13 @@ Here are the key topics I've discovered and that are absolutely essential if you
 
 Before diving in, we need to ask the foundational question: what is language in the generative framework?
 
-Chomsky distinguishes between _i-language_ (internal language) and _e-language_ (external language). Internal language is about the mental grammar, the cognitive system in the brain that generates linguistic expression. External language refers to the observable linguistic behaviour.
+Chomsky distinguishes between **i-language** (internal language) and **e-language** (external language). Internal language is about the mental grammar, the cognitive system in the brain that generates linguistic expressions. External language refers to the observable linguistic behaviour.
 
-This distinction is methodologically crucial. Generative grammar studies **i-language** and not **e-language**. Our goal is to model the system that makes language possible. That particularly resonates with me as I started my career in the computational modelling field (applied to chemical engineering) and the parallel really speaks to me. The distinction between _i-language_ and _e-language_ leads to another key distinction that we'll review below: competence vs. performance.
+This distinction is methodologically crucial. Generative grammar studies **i-language** and not **e-language**. The goal is to model the system that makes language possible. That particularly resonates with me as I started my career in the computational modelling field (applied to chemical engineering) and the parallel really speaks to me. The distinction between _i-language_ and _e-language_ leads directly to another key distinction that we'll review below: competence vs. performance.
 
 ## Generative grammar?
 
-When I started I didn't know much about grammar beyond the rules I learned at school (and by the way, this is called **prescriptive** grammar and is not of much interest for professional linguists who spend their time studying **descriptive** grammar, i.e. how people are actually using the language and not much about how they should use the language). This distinction is fundamental, children acquire language without explicit rules or instructions, which suggests they're able to extract patterns from the input they get, and that's precisely what generative grammar aims at modelling.
+When I started I didn't know much about grammar beyond the rules I learned at school (and by the way, this is called **prescriptive** grammar and is not of much interest for professional linguists who spend their time studying **descriptive** grammar, i.e. how people are actually usng the language and not much about how they _should_ use the language). This distinction is fundamental, children acquire language without explicit rules or instructions, which suggests they're able to extract patterns from the input they get, and that's precisely what generative grammar aims at modelling.
 
 So, what is **generative** grammar?
 
@@ -61,24 +61,22 @@ What is your first reaction? Is it grammatical? What's the meaning?
 
 At first, as I had, you probably have difficulty to understand the meaning (performance) but once you understand, for example by adding "that" at the right place and the sentence becomes #"Cotton that shirts are made from comes from India" you fully understand and realise that the sentence is perfectly grammatical.
 
-Linguists use a special notation to mark sentences:
+By the way, linguists use a special notation to mark sentences:
 
 - **\*** (asterisk): ungrammatical
 - **#** (hash): grammatical but semantically anomalous
 - **?** (question mark): marginally acceptable
 
-This difference means that we need to study the underlying system that generates grammatical sentences and we cannot stay at the surface level (i.e. the performance). But how do we access competence when we have only access to performance? The challenge lies here, and grammaticality judgments will reveal as a powerful tool. This competence/performance distinction shapes how we study grammaticality, we're interested by how people actually produce the language they use, what mental grammar they use.
-Grammaticality judgments become the primary data, but there remains a methodological puzzle: these judgments themselves are products of the system we're trying to model, using grammar to study grammar. This must be handled very carefully through special protocols and methods.
-That leads us to the next key concept.
+This difference between the initial perception and the afterthought leads us to study the underlying system that generates grammatical sentences and, obvously, we cannot stay at the surface level (.e. the performance). But how do we access _competence_ when we have only access to _performance_? The challenge lies here, and grammaticality judgments will reveal as a powerful tool. This competence/performance distinction shapes how we study grammaticality, we're interested by how people actually produce the language they use, what mental grammar they use. But there remains a methodological puzzle: these judgments themselves are products of the system we're trying to model, we end up using grammar to study grammar. This must be handled very carefully through special protocols and methods. That leads us to the next key concept.
 
 ## Grammaticality
 
-Much of syntactic work revolves around the grammaticality of sentences, and this is absolutely fascinating how intuitively we know if a sentence is grammatical or not (and this is even more impressing when studies are made with young children). Let's have a look at Noam Chomsky's famous example sentence "Colorless green ideas sleep furiously", I was immediately able to recognise this sentence as grammatical (proper word order, proper agreement), but my semantic processing system can't interpret properly "colorless green" or "sleep furiously".
+Much of syntactic work revolves around the grammaticality of sentences, and this is absolutely fascinating how intuitively we know if a sentence is grammatical or not (and this is even more impressing when studies are made with young children). Let's have a look at Noam Chomsky's famous example sentence "Colorless green ideas sleep furiously", I was immediately able to recognise this sentence as grammatical (proper word order, proper agreement), but my semantic processing system couldn't interpret properly "colorless green" or "sleep furiously", lest even the full sentence.
 
-But how can we really be sure that the sentence is grammatical? What are the tools we can use? That's for the next post where we'll see tools like constituency tests.
+But how can we really be sure that the sentence is grammatical? What are the tools we can use? In the next post where we'll see how tools like constituency tests can be helpful.
 
 ## Conclusion
 
-The concepts we've covered today: **i-language**, **e-language**, **competence**, **performance**, **grammaticality** are not just preliminaries, they are foundational concepts, and tools we will explore in future posts (trees, movement, binding).
+The concepts we've covered today: **i-language**, **e-language**, **competence**, **performance**, **grammaticality** are not just preliminaries, they are foundational concepts, and we will explore several tools in future posts (trees, movement, binding).
 
 In the next post, we'll cover constituency tests, syntactic trees, structural relations.
