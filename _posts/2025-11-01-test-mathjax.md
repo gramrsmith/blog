@@ -19,7 +19,7 @@ $$
 ## Phonological Rule
 
 $$
-/t/ \rightarrow [ɾ] / V\_V
+\text{/p/} \to \text{[pʰ]} \;/\; \#\_
 $$
 
 ## Set Notation
