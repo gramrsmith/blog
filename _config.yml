@@ -3,7 +3,6 @@ email: grammarsmith@pm.me
 description: A beginner's journey through theoretical linguistics
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://gramrsmith.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: notwitter
 github_username: gramrsmith
 
 # Build settings
