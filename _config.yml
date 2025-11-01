@@ -11,15 +11,6 @@ remote_theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-  - jekyll-archives
-
-jekyll-archives:
-  enabled:
-    - categories
-  layouts:
-    category: category-archive
-  permalinks:
-    category: "/categories/:name/"
 
 exclude:
   - CLAUDE.md
