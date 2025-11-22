@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gramrsmith.github.io/blog/sitemap.xml
